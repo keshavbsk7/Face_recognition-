@@ -7,11 +7,13 @@ from datetime import datetime
 
 video_c=cv2.VideoCapture(0)
 
-rohit_img=fr.load_image_file("pic/rohit.jpg")
-rohit_enc=fr.face_encodings(rohit_img)[0]
+
 
 virat_img=fr.load_image_file("pic/virat.jpg")
 virat_enc=fr.face_encodings(virat_img)[0]
+
+rohit_img=fr.load_image_file("pic/rohit.jpg")
+rohit_enc=fr.face_encodings(rohit_img)[0]
 
 dhoni_img=fr.load_image_file("pic/dhoni.jpg")
 dhoni_enc=fr.face_encodings(dhoni_img)[0]
